@@ -1,0 +1,5 @@
+{
+	"name"  : "Display Toolbox",
+	"tid"   : "0x00FF0000843C6FFF",
+	"requires_reboot": false
+}
