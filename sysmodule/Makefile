@@ -22,9 +22,9 @@ CONFIG_DIR	:=	display-toolbox
 BUILD		:=	build
 OUTDIR		:=	out
 RESOURCES	:=	res
-SOURCES		:=	src
+SOURCES		:=	src lib/nxcpp
 DATA		:=	data
-INCLUDES	:=	src
+INCLUDES	:=	src lib/nxcpp
 EXEFS_SRC	:=	exefs_src
 LIBNAMES	:=	#minIni
 # major minor patch

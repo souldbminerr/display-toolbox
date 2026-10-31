@@ -1,0 +1,17 @@
+{
+  "configurations": [{
+    "name": "Switch",
+    "compilerPath": "${env:DEVKITPRO}/devkitA64/bin/aarch64-none-elf-g++.exe",
+    "intelliSenseMode": "gcc-arm64",
+    "cStandard": "c17",
+    "cppStandard": "c++23",
+    "defines": ["__SWITCH__", "TARGET=\"display-toolbox\"", "TARGET_VERSION=\"1.0.0\"", "CONFIG_DIR=\"display-toolbox\""],
+    "includePath": [
+      "${workspaceFolder}/sysmodule/src",
+      "${workspaceFolder}/sysmodule/lib/nxcpp",
+      "${env:DEVKITPRO}/libnx/include",
+      "${env:DEVKITPRO}/portlibs/switch/include"
+    ]
+  }],
+  "version": 4
+}
